@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Jquery page</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+  </head>
+  <body>
+    <!--body -->
+    <p>Ce texte est en html</p>
+    <span id="jstext"></span>
+    <div>
+      <h4 id="msg"></h4>
+      <p>
+        <input type="text" name="montext" id="montext">
+        <br><br>
+        <button id="btn-affiche">Afficher</button>
+      </p>
+    </div>
+    <p class="button">
+      <button class="img1">Image 1</button>
+      <button class="img2">Image 2</button>
+      <br><br>
+      <button class="red">Rouge</button>
+      <button class="green">Vert</button>
+      <button class="yellow">Jaune</button>
+      <button class="orange">Orange</button>
+      <button class="black">Noir</button>
+      <button class="indigo">Indigo</button>
+    </p>
+    <p><img src="images/massa.png" id="image" width="500" height="500"></p>
+    <div id="zone"></div>
+    
+
+    <form id="form1">
+      Nom d'utilisateur
+      <input type="text" name="nom"><br />
+
+      Mot de passe
+      <input type="password" name="pass"><br />
+
+      Sexe
+      Homme <input type="radio" name="sexe" value="H">
+      Femme <input type="radio" name="sexe" value="F"><br />
+
+      Commentaires
+      <textarea rows="3" name="commentaires">Tapez vos commentaires ici</textarea><br />
+
+      <input type="image" src="images/massa.png"><br />
+
+      <input type="submit" value="Envoyer">
+      <input type="reset" value="Annuler">
+    </form> 
+
+   <!--  text sur les position -->
+
+     <div id="parent">
+      Texte dans le parent
+      <div id="enfant">
+        Texte dans l'enfant
+      </div>
+    </div>
+    <span id="resultat"></span>
+
+    <!-- insérer des données dans un element -->
+
+    <div id="mondiv">
+  Les valeurs stockées dans la balise &lt div&gt  sont : <span id="sp1"></span>, <span id="sp2"></span> et <span id="sp3"></span>.
+  </div>
+
+ <!--  insérer du contenu ou retirer de la page -->
+
+           <h2 id="un">Lorem ipsum</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <hr>
+
+    <h2 id="deux">Lorem ipsum suite</h2>
+    <p>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <hr>
+
+    <h2 id="trois">Liste à puces</h2>
+    <ul>
+      <li>Premier élément</li>
+      <li>Deuxième élément</li>
+      <li>Troisième élément</li>
+      <li>Quatrième élément</li>
+    </ul> 
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="my_js.js"></script>
+  </body>
+</html>
